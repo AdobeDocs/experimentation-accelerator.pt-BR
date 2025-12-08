@@ -56,6 +56,6 @@ As seguintes métricas estão disponíveis:
 
 * **[!UICONTROL Aumento]**: medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base.
 
-* **[!UICONTROL Confiança]**: evidência de que um determinado tratamento é igual ao tratamento de linha de base. [Saiba mais](http://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
+* **[!UICONTROL Confiança]**: evidência de que um determinado tratamento é igual ao tratamento de linha de base. [Saiba mais](http://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
 
 * **[!UICONTROL Contribuição]**: a proporção da alteração geral na métrica que pode ser atribuída a um experimento ou tratamento específico, permitindo a identificação das iniciativas que exercem o maior impacto relativo.
