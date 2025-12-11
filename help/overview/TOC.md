@@ -1,22 +1,22 @@
 ---
-user-guide-title: Experimentation Accelerator
+user-guide-title: Acelerador de experimentação
 breadcrumb-title: Acelerador de experimentação
-user-guide-description: Usar o acelerador de experimentação para rastrear e monitorar seus experimentos
+user-guide-description: Usar o acelerador de experimentação para rastrear e monitorar os seus experimentos
 source-git-commit: 83cc6dccc20323efc96a09ee1bfda0aa38e52009
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '39'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 
-# Experimentation Accelerator {#using}
+# Acelerador de experimentação {#using}
 
 + [Acelerador de experimentação do Journey Optimizer](overview.md)
 + Introdução{#get-started}
-   + [Acessar o Journey Optimizer Experimentation Accelerator](../start/experiment-accelerator-access.md)
-   + [Uso de dados na IA](../start/experiment-accelerator-security.md)
+   + [Acessar o acelerador de experimentação do Journey Optimizer](../start/experiment-accelerator-access.md)
+   + [Uso de dados com IA](../start/experiment-accelerator-security.md)
    + [Práticas recomendadas](../start/experiment-accelerator-best-practices.md)
 + Monitorar{#monitor}
-   + [Acompanhe seus experimentos](../track/experiment-accelerator-monitor.md)
-   + [Analisar métricas de experimento](../track/experiment-accelerator-metrics.md)
+   + [Rastrear os seus experimentos](../track/experiment-accelerator-monitor.md)
+   + [Analisar métricas dos experimentos](../track/experiment-accelerator-metrics.md)
