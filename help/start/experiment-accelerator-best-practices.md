@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Práticas recomendadas do Journey Optimizer Experimentation Accelerator
-description: Melhore sua capacidade de conduzir experimentos com eficiência e gerar insights
+title: Práticas recomendadas para o acelerador de experimentação do Journey Optimizer
+description: Melhore a sua capacidade de conduzir experimentos com eficiência e gerar insights
 topic: Content Management
 role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
-source-git-commit: c52010f196f46d234066fd34ae8e9c0be7d2148b
+source-git-commit: 020ed6c652c66ed78789a5a90dfc8c8dece624a9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 2%
+source-wordcount: '743'
+ht-degree: 6%
 
 ---
 
-# Práticas recomendadas do Journey Optimizer Experimentation Accelerator {#content-experiment-best-practices}
+# Práticas recomendadas para o acelerador de experimentação do Journey Optimizer {#content-experiment-best-practices}
 
 ## O que é teste A/B?
 
@@ -22,7 +22,7 @@ O teste A/B é o processo de comparar duas ou mais versões de algo para determi
 
 Os participantes são atribuídos aleatoriamente a uma versão, conhecida como variante, e seu comportamento é rastreado. Os resultados mostram se uma versão supera estatisticamente as outras.
 
-## Principal terminologia
+## Terminologia principal
 
 | Termo | Definição |
 |-|-|
@@ -77,7 +77,7 @@ Exemplo: _Acreditamos que alterar X aumentará Y devido a Z._
 | Taxa de participação | O nível de interação dos usuários com a experiência | Bom para medir interesse ou atenção |
 | Taxa de rejeição | A porcentagem de usuários que saem rapidamente sem realizar nenhuma ação | Pode indicar um ajuste inadequado ou uma experiência confusa |
 | Tempo na página | O tempo que os usuários gastam em uma parte específica da experiência | Pode refletir profundidade de interesse ou complexidade |
-| Receita por visitante (RPV) | Receita média ganha por usuário | Frequentemente usado em experimentos focados no comércio |
+| Receita por Visitante (RPV) | Receita média ganha por usuário | Frequentemente usado em experimentos focados no comércio |
 | Taxa de retenção | A porcentagem de usuários que retornam ou permanecem envolvidos ao longo do tempo | Útil para avaliações de longo prazo |
 
 ## O que faz um bom experimento?
@@ -85,11 +85,11 @@ Exemplo: _Acreditamos que alterar X aumentará Y devido a Z._
 Um bom experimento não apenas produz uma vitória, ele produz um aprendizado claro e acionável.
 Veja o que procurar:
 
-&check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
-&check; **Alinhamento com metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
-&check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
-&check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
-&check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
+&amp;check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
+&amp;check; **Alinhamento com Metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
+&amp;check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
+&amp;check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
+&amp;check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
 
 Experimentação não é apenas encontrar a versão &quot;melhor&quot;, é sobre a construção de conhecimento através de testes e iteração. Quando bem feitos, os experimentos revelam insights que impulsionam decisões mais inteligentes, melhores experiências do usuário e resultados melhores.
 
