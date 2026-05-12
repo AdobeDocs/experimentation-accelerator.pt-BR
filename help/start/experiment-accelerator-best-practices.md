@@ -7,9 +7,16 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
-source-git-commit: 020ed6c652c66ed78789a5a90dfc8c8dece624a9
+TQID: https://experienceleague.adobe.com/IdmANJYjfwZM29SBj0fDH-BzBet54Zq0VGmIMRRn-hE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 659a4723ac8b7cbaf3ea06c34107bf876612ccb4
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: 743
 ht-degree: 6%
 
 ---
@@ -85,11 +92,11 @@ Exemplo: _Acreditamos que alterar X aumentará Y devido a Z._
 Um bom experimento não apenas produz uma vitória, ele produz um aprendizado claro e acionável.
 Veja o que procurar:
 
-&check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
-&check; **Alinhamento com Metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
-&check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
-&check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
-&check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
+&amp;check; **Confiança estatística**: é improvável que a diferença entre as variantes seja devido ao acaso.
+&amp;check; **Alinhamento com Metas**: a métrica primária reflete o progresso significativo em direção a um objetivo comercial.
+&amp;check; **Impacto Secundário**: nenhum efeito colateral negativo significativo em métricas relacionadas.
+&amp;check; **Escalabilidade**: o resultado pode informar decisões futuras ou ser generalizado para outras áreas.
+&amp;check; **Clareza**: a causa do resultado é razoavelmente isolada e compreendida.
 
 Experimentação não é apenas encontrar a versão &quot;melhor&quot;, é sobre a construção de conhecimento através de testes e iteração. Quando bem feitos, os experimentos revelam insights que impulsionam decisões mais inteligentes, melhores experiências do usuário e resultados melhores.
 
