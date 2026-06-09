@@ -8,27 +8,16 @@ role: User
 level: Beginner
 keywords: conteúdo, experimento, vários, público-alvo, tratamento
 TQID: https://experienceleague.adobe.com/IYG2Jag2XtctyPaYmQfhdMm0Ac5tEg7EA7gOw7GzUk4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 659a4723ac8b7cbaf3ea06c34107bf876612ccb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c07dc7f896f9c65980339f4a7fc94123fa8afe71
 workflow-type: tm+mt
-source-wordcount: 1127
-ht-degree: 3%
+source-wordcount: 1367
+ht-degree: 2%
 
 ---
 
@@ -62,6 +51,7 @@ Para acessar e monitorar seus experimentos, selecione o experimento configurado 
 A página de detalhes do experimento está dividida na seguinte seção:
 
 * [Resultado do experimento](#experiment-outcome)
+* [Métrica principal](#change-primary-metric)
 * [Hipótese](#hypothesis)
 * [Detalhes](#details)
 * [Oportunidades](#opportunities)
@@ -73,6 +63,42 @@ A página de detalhes do experimento está dividida na seguinte seção:
 ![](assets/experiment-monitor-outcome.png)
 
 O **[!UICONTROL resultado do experimento]** fornece uma visão rápida da variação vencedora no seu experimento.
+
+### Alterar a métrica primária {#change-primary-metric}
+
+>[!AVAILABILITY]
+>
+>Somente usuários com a permissão **[!UICONTROL Gerenciar metadados de experimento]** podem alterar a métrica primária.
+
+A alteração da métrica primária se aplica às equipes que usam **[!DNL Customer Journey Analytics]** ou **[!DNL Adobe Analytics]** como fonte de relatórios para experimentos criados em **[!DNL Adobe Target]** ou **[!DNL Adobe Journey Optimizer]**.
+
+Lembre-se do seguinte ao definir ou alterar a métrica primária:
+
+* Importe uma métrica por vez. Sua escolha é armazenada como a métrica principal desse experimento.
+
+* As atualizações se aplicam somente no Journey Optimizer Experimentation Accelerator. Eles não recebem gravações no Adobe Target ou no Adobe Journey Optimizer.
+
+* Se sua organização usar somente o Adobe Target como fonte de relatórios, você não poderá alterar a métrica principal após a publicação do teste.
+
+Para alterar a métrica primária de um experimento existente, siga estas etapas:
+
+1. No seu experimento, clique em **[!UICONTROL Selecionar métrica primária]** se nenhuma tiver sido atribuída ou em **[!UICONTROL Editar]** se desejar alterá-la.
+
+   ![](assets/primary-metric-1.png)
+
+1. Selecione uma métrica que corresponda ao conjunto de fontes de relatórios quando este experimento foi criado em **[!DNL Adobe Target]** ou **[!DNL Adobe Journey Optimizer]**.
+
+   As métricas disponíveis são determinadas pela fonte de dados configurada em **[!DNL Adobe Target]** ou **[!DNL Adobe Journey Optimizer]**. Por exemplo, se **[!DNL Customer Journey Analytics]** (CJA) foi selecionado como a fonte de relatórios no Target, somente as métricas do CJA estarão disponíveis para importação. Você não pode alternar para uma métrica de uma fonte de dados diferente e não pode alterar a métrica primária para uma métrica nativa **[!DNL Adobe Target]**.
+
+1. Use a pesquisa para localizar uma métrica por nome ou use o filtro para exibir métricas já usadas em experimentos ativos.
+
+   ![](assets/primary-metric-1.png)
+
+1. Salve a seleção.
+
+Quando você altera a métrica primária, os insights e as oportunidades geradas anteriormente são apagados e gerados novamente. Durante a regeneração, a seguinte mensagem é exibida:
+
+`Opportunities are being regenerated based on the selected metric. Updates will appear soon.`
 
 ### Configuração {#set-up}
 
@@ -163,7 +189,7 @@ Observe que para que as oportunidades de Experimento sejam geradas, primeiro é 
 
    Para experimentos originados de **[!DNL Adobe Target]**, as alterações sugeridas serão carregadas no fluxo de trabalho de experimentação de **[!DNL Adobe Target]**.
 
-   ➡️ [Saiba mais na documentação do Adobe Target](https://experienceleague.adobe.com/pt-br/docs/target/using/activities/abtest/test-ab)
+   ➡️ [Saiba mais na documentação do Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. Na exibição de experimento, as mesmas **[!UICONTROL Oportunidades de experimentação]** da IA apresentadas pela Journey Optimizer Experimentation Accelerator são acessíveis.
 
@@ -185,7 +211,7 @@ A tabela **[!UICONTROL Resultados]** fornece uma análise detalhada do desempenh
 
 * **[!UICONTROL Aumento]**: medida da melhora da porcentagem na taxa de conversão de um determinado tratamento em relação à linha de base.
 
-* **[!UICONTROL Confiança]**: evidência de que um determinado tratamento é igual ao tratamento de linha de base. [Saiba mais](http://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
+* **[!UICONTROL Confiança]**: evidência de que um determinado tratamento é igual ao tratamento de linha de base. [Saiba mais](http://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/technotes/experiment-calculations)
 
 * **[!UICONTROL Taxa de conversão]**: porcentagem de perfis que concluíram a ação desejada (por exemplo, compra, inscrição) após verem o tratamento.
 
